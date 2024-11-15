@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Emilys Candy', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(45deg, #ed4264, #ffedbc );
+    background-size: 200% 200%;
+    animation: backgroundAnimation 20s infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    text-align: center;
+}
+
+
+.lyric {
+    display: inline-block;
+    font-size: 100px; 
+    margin: 0 20px; 
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.hover-disappear:hover {
+    opacity: 0; 
+    transition: opacity 0.4s ease; 
+}
+.last-lyric:hover {
+    font-size: 120px;
+    text-shadow: 0 0 15px #b522bc, 0 0 30px #ff5733;
+    transition: font-size 0.3s ease, text-shadow 0.3s ease;
+}
+
+.last-lyric {
+    color: #fff;
+    text-decoration: none; 
+  
+    
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+.emilys {
+    font-family: 'Emilys Candy', regular;
+    font-size: 120px;
+}
+
+.swanky {
+    font-family: 'Fontdiner Swanky', regular;
+    font-size: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
