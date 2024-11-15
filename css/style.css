@@ -1,75 +1,117 @@
-body {
+/* General Styles */
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Emilys Candy', cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-    background: linear-gradient(45deg, #ed4264, #ffedbc );
-    background-size: 200% 200%;
-    animation: backgroundAnimation 20s infinite;
+    box-sizing: border-box;
 }
 
-@keyframes backgroundAnimation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-.container {
+header {
+    background-color: #6a5acd;
+    padding: 1rem;
     text-align: center;
 }
 
-.line {
-    margin: 1rem 0;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.lyric {
-    display: inline-block;
-    font-size: 100px; 
-    margin: 0 20px; /* Increased horizontal margin for more spacing */
+.logo {
+    font-size: 1.5rem;
     color: #fff;
-    transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* New spinning effect */
-.lyric:hover:not(.no-spin) {
-    transform: rotate(360deg); /* Spins the element */
-    transition: transform 0.5s ease; /* Duration of the spin */
+.logo span {
+    color: #ff6347;
 }
 
-.emilys {
-    font-family: 'Emilys Candy', regular;
-    font-size: 120px;
+nav ul {
+    display: flex;
+    gap: 1rem;
 }
 
-.swanky {
-    font-family: 'Fontdiner Swanky', regular;
-    font-size: 120px;
-}
-
-.hover-disappear:hover {
-    opacity: 0;
-    transition: opacity 0.4s ease;
-}
-
-.last-lyric {
+nav a {
     color: #fff;
     text-decoration: none;
-    transition: transform 0.5s ease, text-shadow 0.5s ease;
+    font-weight: bold;
 }
 
-.last-lyric:hover {
-    transform: scale(1.5);
-    text-shadow: 0 0 10px #fff, 0 0 20px #ffeb3b, 0 0 30px #893bff, 0 0 40px #cb3bff;
-    color: #00aeed;
+/* Event Schedule Styles */
+.event-schedule {
+    padding: 2rem;
+    text-align: center;
 }
 
-.last-line {
-    margin-top: 2px;
+.schedule {
+    max-width: 600px;
+    margin: auto;
 }
+
+.event {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+.event h2 {
+    color: #6a5acd;
+}
+
+/* Shop Styles */
+.shop {
+    padding: 2rem;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.product {
+    padding: 1rem;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
 
 
 
