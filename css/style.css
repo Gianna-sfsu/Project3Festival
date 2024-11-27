@@ -1,93 +1,119 @@
-/* General Styles */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fffbf0;
-    color: #ec0808;
-    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
 }
 
+/* Header Section */
 header {
-    background-color: #ff6347;
-    padding: 1rem;
-}
-
-.logo {
-    font-size: 1.5rem;
-    color: #fff;
-    text-decoration: none;
-}
-
-.cover {
-    height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right, #ff6347, #ff4500), url('festival-bg.jpg') no-repeat center/cover;
+    padding: 20px 50px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #ccc;
 }
 
-.cover-content {
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+.logo img {
+    width: 120px;
 }
 
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+   
 }
 
 .button {
     display: inline-block;
-    padding: 0.75rem 1.5rem;
-    background-color: #ffeb3b;
-    color: #333;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #ffc107;
+    background-color: #cc5200;
 }
 
-/* About, Events, and Shop Sections */
-.about, .events, .shop {
-    padding: 2rem;
-    background-color: #fff;
-}
-
-h2 {
-    color: #ff6347;
-    margin-bottom: 1rem;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-.product {
-    display: inline-block;
-    width: 200px;
-    margin: 1rem;
-}
-
-.product img {
-    width: 100%;
-    border-radius: 10px;
-}
-
+/* Footer Section */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
 }
+
+footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.partners img {
+    width: 80px;
+}
+
 
 
 
