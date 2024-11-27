@@ -1,4 +1,4 @@
-# Limitless Fest
+# Limitless Fest  
 
 ## Project Title: Limitless Fest  
 **Created by:** Gianna Rosario  
@@ -28,17 +28,31 @@ The project was designed using Figma to develop wireframes, branding guidelines,
 ## Part 2: Supporting Documents and Links  
 
 ### Project Statement  
-Limitless Fest is an event that celebrates inclusivity, raises awareness about neurodiversity, and supports the Special Olympics. Through thoughtful branding and accessible design, the festival aims to unite the community in creating a space where everyone feels welcome and valued.
+Limitless Fest is an event that celebrates inclusivity, raises awareness about neurodiversity, and supports the Special Olympics. Through thoughtful branding and accessible design, the festival aims to unite the community in creating a space where everyone feels welcome and valued.  
 
 ### Technical Statement  
-The branding for Limitless Fest employs a vibrant and approachable aesthetic, using a carefully curated color palette of muted greens, pinks, blues, and yellows to evoke joy and warmth. The primary typeface, Sour gummybear, ensures playfuland bold for headlines, while DM Serif Display adds a refined touch for body text. Patterns and design elements were crafted for adaptability, ensuring a cohesive look across both print and digital mediums.  
+The branding for Limitless Fest employs a vibrant and approachable aesthetic, using a carefully curated color palette of muted greens, pinks, blues, and yellows to evoke joy and warmth. The primary typeface, **Sour Gummybear**, ensures playfulness and boldness for headlines, while **DM Serif Display** adds a refined touch for body text. Patterns and design elements were crafted for adaptability, ensuring a cohesive look across both print and digital mediums.  
 
 ### Acknowledgment  
-This project was developed with the support of instructor and peers who provided valuable feedback throughout the design process. Their insights contributed significantly to refining the final outcome.  
+This project was developed with the support of the instructor and peers who provided valuable feedback throughout the design process. Their insights contributed significantly to refining the final outcome.  
 
-### Embedded Links  
+---
+
+## Embedded Links  
+
 - **[Figma Wireframes](https://www.figma.com/design/tPx3IQ1ZgURpaXPQZMg32v/GiannaR-DES228Wireframes?node-id=0-1&node-type=canvas&t=lXxRzA99XegIyeX1-0)**  
 - **[Brand Guidelines PDF](file-qR5e6CniPFf3ZVHyuNwKHpMV)**  
 
 ---
+
+## Images  
+
+### 1. Artwork  
+![Festival Artwork](Rosario-Gianna_PA.pdf)  
+
+### 2. Mocked-Up Artwork  
+![Poster Mockup](poster.png)  
+
+
+
 
