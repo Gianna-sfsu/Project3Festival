@@ -51,7 +51,9 @@ This project was developed with the support of the instructor and peers who prov
 ![Festival Artwork](Rosario-Gianna_PA.pdf)  
 
 ### 2. Mocked-Up Artwork  
-![Poster Mockup] <img src="img/poster.png" alt="Poster"> 
+![poster mockup](img/poster.png "Optional title for poster")
+
+
 
 
 
