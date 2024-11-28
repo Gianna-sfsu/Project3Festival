@@ -6,44 +6,46 @@
 }
 
 body {
-    line-height: 1.6;
-    color: black;
-    background-color: #fdfdfd;
-    font-size: 15px;
+    font-family: 'Rubik', sans-serif; /* Ensure consistent font */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Match the Index page background */
+    color: #ffffff; /* Match the Index page text color */
+    background: linear-gradient(90deg, #ffffff, #c93f97, #7b2a90  ); 
 }
 
 /* Header Section */
 header {
+    background-color: #fff;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Match Index page style */
 }
 
 .logo img {
-    width: 300px; /* Increased size of the logo */
-    height: auto; /* Maintain aspect ratio */
-    max-width: none; /* Remove any constraints */
+    width: 300px;
+    height: auto;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     gap: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #c93f97;
+    font-size: 20px;
     font-weight: bold;
-    font-size: 18px;
-    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #800080; /* Adds hover effect */
+    color: #7b2a90; /* Match the hover effect of the Index page */
 }
 
 /* About Section */
@@ -55,66 +57,57 @@ nav ul li a:hover {
 .about-content h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #800080; /* Purple heading */
+    color: #7b2a90; /* Use the same accent color for headings */
 }
 
 .about-content p {
-    font-size: 15px; /* Slightly bigger text */
-    text-align: center; /* Center-aligns text */
-    line-height: 1.5; /* Improves readability */
-    margin: 20px auto; /* Adds vertical spacing and centers text block */
-    max-width: 800px; /* Prevents full-screen stretch */
-    color: #000000; /* Text color */
-}
-
-.about-content br {
-    font-size: 1.2rem; /* Makes break-tagged text bigger */
-    font-weight: bold; /* Adds emphasis */
-    margin-top: 20px; /* Adds space above and below */
-    display: block;
-    text-align: center; /* Center-aligns the text */
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 800px;
+    color: #000000; /* Match Index page text color */
+  
 }
 
 .about-content .highlight {
-    font-size: 30px; /* Larger text size for emphasis */
-    font-weight: bold; /* Makes the text stand out */
-    text-align: center; /* Center-aligns the text */
-    margin-top: 20px; /* Adds spacing above */
-    color: #000000; /* Neutral color */
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #7b2a90; /* Highlight with the accent color */
 }
 
 /* Event Image Button */
 .image-button {
     margin-top: 30px;
-    text-align: center; /* Ensures the image stays centered */
+    text-align: center;
 }
 
 .clickable-image {
-    width: 40%; /* Scales down the image size */
-    max-width: 300px; /* Caps the maximum size */
+    width: 40%;
+    max-width: 300px;
     cursor: pointer;
     transition: transform 0.3s;
-    border: none; /* Removes any unwanted borders */
-    background: none; /* Ensures no background styling */
+    border: none;
+    background: none;
 }
 
 .clickable-image:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05);
 }
 
 /* Footer Section */
 footer {
-    background-color: #f9f9f9;
+    background-color: #fff;
+    color: #c93f97;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 50px;
+    padding: 20px;
+    margin-top: 20px;
     border-top: 1px solid #ccc;
 }
 
 footer h3 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin-bottom: 10px;
-    color: #800080;
 }
 
 .partners {
@@ -124,15 +117,15 @@ footer h3 {
 }
 
 .partners img {
-    width: 70px;
-    height: auto; /* Maintain aspect ratio */
-    max-width: none; /* Remove constraints */
+    width: 100px;
+    height: auto;
 }
 
 .partners img:hover {
-    transform: scale(1.1); /* Slight zoom on hover for partner logos */
+    transform: scale(1.1);
     transition: transform 0.3s;
 }
+
 
 
 
