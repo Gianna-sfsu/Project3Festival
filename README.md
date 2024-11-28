@@ -48,7 +48,7 @@ This project was developed with the support of the instructor and peers who prov
 ## Images  
 
 ### 1. Artwork  
-![Festival Artwork](Rosario-Gianna_PA.pdf)  
+![Festival Artwork ](img/limit.png "Optional title for poster")  
 
 ### 2. Mocked-Up Artwork  
 ![poster mockup](img/poster.png "Optional title for poster")
