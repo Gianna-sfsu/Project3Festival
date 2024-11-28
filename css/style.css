@@ -1,64 +1,57 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
-}
-
+/* General Styles */
 body {
     font-family: 'Rubik', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #ffffff;
 }
 
-/* Header Section */
 header {
+    background-color: #fff;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    background-color: #fff;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.logo img {
-    width: 200px;
+.image-button img {
+    max-width: 300px; /* Adjust logo size */
+    height: auto;
+    display: block;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     gap: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color:#c93f97;
+    font-size: 20px;
     font-weight: bold;
-    font-size: 18px;
-    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ff6600;
+    color:#c93f97;
 }
 
 /* Hero Section */
 .hero {
     position: relative;
     text-align: center;
-    margin-top: 20px;
+    color: white;
 }
 
 .hero-image {
     width: 100%;
-    max-height: 70vh;
-    object-fit: cover;
+    height: auto;
+    display: block;
 }
 
 .hero-text {
@@ -66,53 +59,54 @@ nav ul li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .hero-text h2 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-   
+    font-size: 2em;
+    margin: 0 0 10px;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff6600;
-    color: white;
+.hero-text .button {
     text-decoration: none;
-    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #c93f97;
+    color: white;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    font-size: 1em;
+    font-weight: bold;
 }
 
-.button:hover {
-    background-color: #cc5200;
+.hero-text .button:hover {
+    background-color: #0056b3;
 }
 
-/* Footer Section */
+/* Footer */
 footer {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
+    color:#c93f97;
     text-align: center;
-    padding: 20px 0;
-    border-top: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 footer h3 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.partners {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+footer .partners img {
+    margin: 10px;
+    width: 100px;
+    height: auto;
 }
 
-.partners img {
-    width: 80px;
-}
+
+
+
 
 
 
