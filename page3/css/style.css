@@ -17,7 +17,7 @@ header {
 }
 
 .image-button img {
-    max-width: 300px; /* Adjust logo size */
+    max-width: 300px;
     height: auto;
     display: block;
 }
@@ -30,7 +30,6 @@ nav ul {
     gap: 20px;
 }
 
-
 nav ul li a {
     text-decoration: none;
     color: #c93f97;
@@ -39,8 +38,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #c93f97;
+    color: #7b2a90;
 }
+
 .center-text {
     text-align: center;
     color: #c93f97;
@@ -59,6 +59,7 @@ nav ul li a:hover {
     max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .highlight {
@@ -66,17 +67,25 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-.event-card {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin: 10px 0;
+.large-divider {
+    display: block;
+    margin: 20px auto;
+    max-width: 400px;
+    width: 200%;
 }
 
-.event-img {
-    width: 150px;
-    height: auto;
-    border-radius: 5px;
+.event-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event-details {
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .event-details h4 {
@@ -95,6 +104,18 @@ nav ul li a:hover {
 
 .button:hover {
     background: #7b2a90;
+}
+.guest-section h3, 
+.guest-section p, 
+.guest-section h4 {
+    text-align: center;
+}
+
+.breaker-img {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    margin-top: 10px;
 }
 
 .guest-row {
