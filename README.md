@@ -1,6 +1,5 @@
 # Limitless Fest  
 
-## Project Title: Limitless Fest  
 **Created by:** Gianna Rosario  
 **Course:** DES 228  
 
@@ -9,32 +8,48 @@
 ## Part 1: Project Overview  
 
 ### Who  
-Limitless Fest supports **neurodiversity and special needs awareness**. The event promotes inclusion and understanding for people with special needs or neurodiverse conditions, while celebrating their strengths and contributions to the community.  
+**Limitless Fest** supports **neurodiversity and special needs awareness.** This event promotes inclusion and celebrates the unique strengths and contributions of individuals with special needs and neurodiverse conditions.  
 
 ### What  
-This project includes branding and promotional materials for Limitless Fest, including logo designs, color palettes, typography, mood boards, and event schedules. The branding aligns with the festival’s mission to create a welcoming and accessible space for all attendees.  
+This project encompasses the branding and promotional materials for Limitless Fest. Deliverables include logo designs, color palettes, typography, mood boards, and event schedules, all aligned with the festival’s mission of accessibility and inclusivity.  
 
 ### Why  
-The festival raises awareness about the challenges faced by individuals with special needs, such as finding employment and fitting in socially. By fostering understanding and celebrating their unique abilities, Limitless Fest helps create an inclusive society where everyone feels valued. Proceeds support the Special Olympics, empowering athletes through sports, confidence-building, and community connection.  
+The festival aims to:  
+- Raise awareness of the challenges faced by individuals with special needs.  
+- Foster inclusion and understanding.  
+- Support the **Special Olympics** to empower athletes through sports, confidence-building, and community connection.  
+
+Proceeds from the event will benefit programs like housing assistance and access to adaptive equipment for neurodiverse individuals.  
 
 ### Where & When  
-The festival will be held at an accessible outdoor park from May 8–10, featuring sensory-friendly areas, inclusive seating, and clear pathways.  
+Limitless Fest will take place **May 8–10** at an accessible outdoor park, featuring:  
+- Sensory-friendly areas.  
+- Inclusive seating arrangements.  
+- Clear, wheelchair-accessible pathways.  
 
 ### How  
-The project was designed using Figma to develop wireframes, branding guidelines, and promotional materials. Assets, such as logos, typography, and patterns, were tested for scalability across digital and physical platforms. The design process incorporated feedback and iterations to ensure clarity, accessibility, and alignment with the festival’s goals.  
+This project was designed using tools like **Figma** and **Adobe XD** to create wireframes, branding guidelines, and promotional assets. All designs were rigorously tested for scalability and accessibility across digital and physical platforms. Feedback from peers and the instructor was incorporated to ensure clarity, alignment, and adherence to accessibility standards.  
 
 ---
 
 ## Part 2: Supporting Documents and Links  
 
 ### Project Statement  
-Limitless Fest is an event that celebrates inclusivity, raises awareness about neurodiversity, and supports the Special Olympics. Through thoughtful branding and accessible design, the festival aims to unite the community in creating a space where everyone feels welcome and valued.  
+**Limitless Fest** is a celebration of inclusivity and neurodiversity. By fostering understanding and connection, the festival aims to empower individuals and promote a society where everyone feels welcomed and valued.  
 
 ### Technical Statement  
-The branding for Limitless Fest employs a vibrant and approachable aesthetic, using a carefully curated color palette of muted greens, pinks, blues, and yellows to evoke joy and warmth. The primary typeface, **Sour Gummybear**, ensures playfulness and boldness for headlines, while **DM Serif Display** adds a refined touch for body text. Patterns and design elements were crafted for adaptability, ensuring a cohesive look across both print and digital mediums.  
+The branding for Limitless Fest employs a vibrant, approachable aesthetic, featuring:  
+- **Color Palette:** Muted greens, pinks, blues, and yellows to evoke joy and warmth.  
+- **Typography:**  
+  - **Sour Gummybear** (headlines) for a playful and bold touch.  
+  - **DM Serif Display** (body text) for a refined and approachable look.  
+- **Patterns:** Scalable, adaptable designs that maintain consistency across print and digital formats.  
 
-### Acknowledgment  
-This project was developed with the support of the instructor and peers who provided valuable feedback throughout the design process. Their insights contributed significantly to refining the final outcome.  
+The design process was iterative, incorporating feedback to achieve accessibility, clarity, and alignment with the festival’s values.  
+
+### Acknowledgments  
+This project would not have been possible without the guidance of my instructor and the valuable feedback from peers. Their insights helped shape and refine the final deliverables.  
+
 
 ---
 

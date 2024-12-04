@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Rubik', sans-serif;
     margin: 0;
@@ -45,7 +45,7 @@ nav ul li a:hover {
     color: #c93f97;
 }
 
-/* Hero Section */
+
 .hero {
     position: relative;
     text-align: center;
@@ -93,22 +93,28 @@ footer {
     background-color: #ffffff;
     color: #c93f97;
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 10px 20px; 
+    margin-top: 10px;
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
+    left: 0;
+    z-index: 10;
 }
 
 footer h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 16px; 
+    margin-bottom: 5px;
 }
 
 footer .partners img {
-    margin: 10px;
-    width: 100px;
+    margin: 3px;
+    width: 60px; 
     height: auto;
 }
 
-/* Responsive Design for Smaller Screens */
+
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;

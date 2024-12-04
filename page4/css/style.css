@@ -1,22 +1,24 @@
-/* General Styles */
+
 body {
     font-family: 'Rubik', sans-serif;
+  
     margin: 0;
     padding: 0;
+    padding-bottom: 100px;
     background-color: #f5f5f5;
     background: linear-gradient(90deg, #ffffff, #e852b1,#c93f97 ); 
 }
 
 header {
     background-color: #fff;
-    padding: 3px 8px; /* Further reduced padding */
-    margin-top: 1px; /* Reduced top margin */
-    margin-bottom: 2px; /* Reduced bottom margin */
+    padding: 3px 8px; 
+    margin-top: 1px; 
+    margin-bottom: 2px; 
     
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
 }
 
 
@@ -45,7 +47,7 @@ nav ul li a:hover {
     color: #7b2a90;
 }
 
-/* Shop Section */
+
 .shop {
     padding: 40px 20px;
     text-align: center;
@@ -56,7 +58,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Product Grid */
+
 .products {
     display: flex;
     flex-wrap: wrap;
@@ -65,6 +67,7 @@ nav ul li a:hover {
     margin: 20px;
     max-width: 900px;
     margin: 0 auto;
+
 }
 
 .product {
@@ -76,12 +79,12 @@ nav ul li a:hover {
 }
 
 .product img {
-    width: 100%;
-    height: auto;
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 5px; 
 }
+
 
 .product-info {
     background-color: #f9f9f9;
@@ -91,7 +94,7 @@ nav ul li a:hover {
 }
 
 .product-info h2 {
-    font-size: 1.2em;
+
     margin: 10px 0;
 }
 
@@ -100,12 +103,12 @@ nav ul li a:hover {
 }
 
 .product-info .sold-out {
-    color: #7b2a90; /* Purple color for "Sold Out" */
-    font-weight: bold; /* Bold text */
+    color: #7b2a90; 
+    font-weight: bold; 
     font-size: 1.1em;
 }
 
-/* Donations Section */
+
 .donations {
     padding: 20px;
 }
@@ -124,27 +127,32 @@ nav ul li a:hover {
     text-align: justify;
     margin: 20px auto;
     max-width: 800px;
-    color: #000000; /* Purple color for donations text */
+    color: #000000; 
     font-weight: bold;
 }
 
-/* Footer */
+
 footer {
     background-color: #ffffff;
     color: #c93f97;
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 10px 20px; 
+    margin-top: 10px;
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
+    left: 0;
+    z-index: 10;
 }
 
 footer h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 16px; 
+    margin-bottom: 5px;
 }
 
 footer .partners img {
-    margin: 10px;
-    width: 100px;
+    margin: 3px;
+    width: 60px; 
     height: auto;
 }
 
