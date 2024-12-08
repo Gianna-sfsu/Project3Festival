@@ -6,24 +6,20 @@ body {
     padding: 0;
     padding-bottom: 100px;
     background-color: #f5f5f5;
-    background: linear-gradient(90deg, #ffffff, #e852b1,#c93f97 ); 
+    background: linear-gradient(90deg, #9ec9fc, #6ab0fb,#439ef9 ); 
 }
 
 header {
     background-color: #fff;
-    padding: 3px 8px; 
-    margin-top: 1px; 
-    margin-bottom: 2px; 
-    
+    padding: 10px 20px; /* Add padding to create space from the edge */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-
 .image-button img {
-    max-width: 300px;
+    max-width: 350px; /* Increase the size of the logo */
     height: auto;
     display: block;
 }
@@ -31,21 +27,23 @@ header {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 20px; /* Add padding to create space from the edge */
     display: flex;
-    gap: 20px;
+    gap: 20px; /* Maintain spacing between nav items */
 }
+
 
 nav ul li a {
     text-decoration: none;
-    color: #c93f97;
+    color: #f7cd39;
     font-size: 20px;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #7b2a90;
+    color: #61cd55;
 }
+
 
 
 .shop {
@@ -134,17 +132,14 @@ nav ul li a:hover {
 
 footer {
     background-color: #ffffff;
-    color: #c93f97;
+    color: #7b2a90; 
     text-align: center;
-    padding: 10px 20px; 
+    padding: 10px 20px;
     margin-top: 10px;
-    position: fixed; 
-    bottom: 0;
-    width: 100%; 
-    left: 0;
-    z-index: 10;
+    width: 100%;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1);
+    
 }
-
 footer h3 {
     font-size: 16px; 
     margin-bottom: 5px;
@@ -155,6 +150,7 @@ footer .partners img {
     width: 60px; 
     height: auto;
 }
+
 
 
 
