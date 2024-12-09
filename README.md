@@ -28,7 +28,7 @@ Limitless Fest will take place **May 8–10** at an accessible outdoor park, fea
 - Clear, wheelchair-accessible pathways.  
 
 ### How  
-This project was designed using tools like **Figma** and **Adobe XD** to create wireframes, branding guidelines, and promotional assets. All designs were rigorously tested for scalability and accessibility across digital and physical platforms. Feedback from peers and the instructor was incorporated to ensure clarity, alignment, and adherence to accessibility standards.  
+This project was designed using tools like **Figma** to create wireframes, branding guidelines, and promotional assets. All designs were rigorously tested for scalability and accessibility across digital and physical platforms. Feedback from peers and the instructor was incorporated to ensure clarity, alignment, and adherence to accessibility standards.  
 
 ---
 
@@ -41,8 +41,8 @@ This project was designed using tools like **Figma** and **Adobe XD** to create 
 The branding for Limitless Fest employs a vibrant, approachable aesthetic, featuring:  
 - **Color Palette:** Muted greens, pinks, blues, and yellows to evoke joy and warmth.  
 - **Typography:**  
-  - **Sour Gummybear** (headlines) for a playful and bold touch.  
-  - **DM Serif Display** (body text) for a refined and approachable look.  
+  - **Sour Gummybear** (logo) for a playful and bold touch.  
+  - **Rubik Sans serif** (body text) for a refined and approachable look.  
 - **Patterns:** Scalable, adaptable designs that maintain consistency across print and digital formats.  
 
 The design process was iterative, incorporating feedback to achieve accessibility, clarity, and alignment with the festival’s values.  
